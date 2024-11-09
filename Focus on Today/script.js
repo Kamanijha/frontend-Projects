@@ -12,7 +12,7 @@ checkBoxList.forEach((checkBox)=>{
             return input.value
         })
         if(allGoalAdded){
-            (checkBox.parentElement.classList.toggle('completed'))
+            (checkBox.parentElement.classList.add('completed'))
         //  console.log("clicked")
         }else{
             progressBar.classList.add("show-error")
