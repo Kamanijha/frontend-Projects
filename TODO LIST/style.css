@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(232, 238,238);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 13px;
+    margin-block: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.addbtn{
+    padding: 12px;
+    background-color: forestgreen;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 12px 34px;
+}
+ul{
+    width: 100%;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+
+}
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    border: .125px solid #a19f9f;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 8px 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul li:hover{
+   background-color: gainsboro;
+}
+ul li p {
+    flex-grow: 1;
+    padding: 3px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+
+}
+.deletbtn{
+    color: red;
+}
+.editBtn{
+    color:forestgreen ;
+}
