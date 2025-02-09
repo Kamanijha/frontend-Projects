@@ -42,6 +42,10 @@ h1 span{
    color: #858585;
    margin-top:15px ;
 }
+.progress-label span{
+    color: hotpink;
+    font-size: 25px;
+}
 .progress-bar{
     height: 35px;
     background-color: #E9F2E2;
@@ -60,6 +64,7 @@ h1 span{
     align-items: center;
     /* padding-left: 10px; */
     overflow: hidden;
+    transition: width 0.2s ease-in-out;
 }
 .progress-value span{
     padding-left: 10px;
@@ -95,9 +100,15 @@ h1 span{
 .completed .coustom-chekebox{
     background-color: #48A300;
     border: #48A300;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .coustom-chekebox img{
-    width: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
 }
 .check-icon{
     display: none;
@@ -119,7 +130,7 @@ h1 span{
 .goal-input{
     padding-left: 23px;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
     align-self: stretch;
@@ -148,12 +159,15 @@ h1 span{
  .goal-container{
    margin-bottom: 24px;
    border-radius: 12px;
-   height: 30px;
+   height: 20px;
  }
  .coustom-chekebox{
-    height: 18px;
-    width: 18px;
+    height: 14px;
+    width: 14px;
     border-radius: 50%;
+ }
+ .coustom-chekebox img{
+    width: 15px;
  }
  .progress-bar{
     height: 25px;

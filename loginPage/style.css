@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    max-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+.input {
+    position: relative; /* Ensure relative positioning for the container */
+    width: 100%; 
+    margin-bottom: 15px;
+}
+
+.input input {
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    padding: 18px 15px;
+    border-radius: 10px;
+    padding-right: 40px; /* Space for the eye button */
+}
+
+.eye-btn {
+    position: absolute; /* Position the button inside the input container */
+    right: 15px; /* Align it to the right */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.eye-btn i {
+    font-size: 18px; /* Adjust icon size */
+    color: #666; /* Customize icon color */
+}
+
+
+
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    flex-basis: 48%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    transition: background 1s;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+p a {
+    text-decoration: none;
+}
+
+#singIn {
+    color: #555;
+}
+
