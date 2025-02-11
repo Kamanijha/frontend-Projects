@@ -3,7 +3,7 @@ const input = document.getElementById("input-box")
 const button = document.getElementById("btn")
 
 // async function getData(cityName){
-//     const promise = await fetch(`http://api.weatherapi.com/v1/current.json?key=88cd81159d7d453aaf793146251101&q=${cityName}&aqi=yes`)
+//     const promise = await fetch(`http://api.weatherapi.com/v1/current.json?key=${}&q=${cityName}&aqi=yes`)
 
 //     return await promise.json()
 // }

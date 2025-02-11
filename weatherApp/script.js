@@ -3,7 +3,7 @@ const btn = document.querySelector("button")
 const weather = document.querySelector("#weather")
 
 const weatherData = async () => {
-    const apiKey = '9b2088c1e3090de90aabbc62c78fb821'
+    const apiKey = ""  // api key
     let URL = `https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=${apiKey}&units=metric`
 
     try {
